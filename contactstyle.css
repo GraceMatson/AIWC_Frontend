@@ -48,7 +48,7 @@
 
 .contactcard-img {
     margin-left: -3rem;
-    height: 190px;
+    height: 250px;
     width: 100%;
     object-fit: cover;
     object-position: center;
@@ -62,9 +62,17 @@ body {
 
 @media screen and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
     .container {
-        max-width: 100% !important;
+        max-width: 90% !important;
     }
     .contactcard-img {
-        height: 300px;
+        height: 350px;
+    }
+    .contactcard-head {
+        font-size: 2rem;
+        line-height: 4rem;
+    }
+    .contactcard-body-head {
+        font-size: 3rem;
+        /* height: 100%; */
     }
 }
