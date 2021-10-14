@@ -10,6 +10,11 @@
     height: 24.88rem; */
 }
 
+
+/* .container-fluid {
+    overflow: hidden;
+} */
+
 .contactcard-head {
     justify-content: center;
     align-items: center;
@@ -34,7 +39,7 @@
     line-height: 130%;
     letter-spacing: 0.04em;
     color: #000000;
-    /* text-align: left; */
+    text-align: left;
 }
 
 .contactcard-body-head {
@@ -56,6 +61,12 @@
     border-radius: 7.44073px;
 }
 
+.email {
+    text-decoration: underline;
+    font-weight: bold;
+    overflow-wrap: break-word;
+}
+
 body {
     background-color: black;
 }
@@ -65,7 +76,7 @@ body {
         max-width: 90% !important;
     }
     .contactcard-img {
-        height: 350px;
+        height: 400px;
     }
     .contactcard-head {
         font-size: 2rem;
@@ -74,5 +85,8 @@ body {
     .contactcard-body-head {
         font-size: 3rem;
         /* height: 100%; */
+    }
+    .contactcard-body {
+        font-size: 1.8rem;
     }
 }
