@@ -1,19 +1,9 @@
 .contactcard {
-    /* display: flex; */
-    /* flex-direction: row; */
-    /* align-items: flex-start; */
     padding: 1.86rem;
     background: #F7ECDC;
     box-shadow: 0px 38.857px 106.764px rgba(0, 0, 0, 0.0416191), 0px 20.7748px 68.0627px rgba(0, 0, 0, 0.0298834), 0px 11.6462px 44.2206px rgba(0, 0, 0, 0.0210525), 0px 6.1852px 27.0968px rgba(0, 0, 0, 0.0136632), 0px 2.5738px 13.1048px rgba(0, 0, 0, 0.00703801);
     border-radius: 14.8815px;
-    /* width: 38.13rem;
-    height: 24.88rem; */
 }
-
-
-/* .container-fluid {
-    overflow: hidden;
-} */
 
 .contactcard-head {
     justify-content: center;
@@ -21,7 +11,7 @@
     padding: 7.44073px 14.8815px 3.72036px;
     background: #F16B58;
     box-shadow: 0px 93.0091px 116.261px rgba(255, 101, 9, 0.07), 0px 38.857px 48.5712px rgba(255, 101, 9, 0.0503198), 0px 20.7748px 25.9685px rgba(255, 101, 9, 0.0417275), 0px 11.6462px 14.5577px rgba(255, 101, 9, 0.035), 0px 6.1852px 7.7315px rgba(255, 101, 9, 0.0282725), 0px 2.5738px 3.21725px rgba(255, 101, 9, 0.2);
-    border-radius: 3.72036px;
+    border-radius: 8px;
     font-family: Bebas Neue;
     font-style: normal;
     font-size: 1.2rem;
@@ -84,7 +74,6 @@ body {
     }
     .contactcard-body-head {
         font-size: 3rem;
-        /* height: 100%; */
     }
     .contactcard-body {
         font-size: 1.8rem;
