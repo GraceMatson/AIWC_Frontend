@@ -30,11 +30,20 @@
     font-family: Lato;
     font-style: normal;
     font-weight: normal;
-    font-size: 16.7416px;
+    font-size: 1.046rem;
     line-height: 130%;
-    /* or 22px */
     letter-spacing: 0.04em;
     color: #000000;
+    /* text-align: left; */
+}
+
+.contactcard-body-head {
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 105.5%;
+    letter-spacing: 0.1em;
+    text-align: left;
 }
 
 .contactcard-img {
@@ -42,8 +51,20 @@
     height: 190px;
     width: 100%;
     object-fit: cover;
+    object-position: center;
+    filter: drop-shadow(0px 53.0152px 211.131px rgba(0, 0, 0, 0.04)) drop-shadow(0px 15.9825px 63.6497px rgba(0, 0, 0, 0.0153227)) drop-shadow(0px 6.63833px 26.4368px rgba(0, 0, 0, 0.0064637)) drop-shadow(0px 2.40095px 9.56169px rgba(0, 0, 0, 0.00211016));
+    border-radius: 7.44073px;
 }
 
 body {
     background-color: black;
+}
+
+@media screen and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+    .container {
+        max-width: 100% !important;
+    }
+    .contactcard-img {
+        height: 300px;
+    }
 }
