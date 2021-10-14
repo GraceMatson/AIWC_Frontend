@@ -39,4 +39,7 @@
 
 .contactcard-img {
     margin-left: -3rem;
+    height: 190px;
+    width: 100%;
+    object-fit: cover;
 }
