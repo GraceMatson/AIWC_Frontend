@@ -27,7 +27,7 @@
 }
 
 .contactcard-body {
-    font-family: Lato;
+    font-family: 'Lato';
     font-style: normal;
     font-weight: normal;
     font-size: 1.046rem;
@@ -38,8 +38,8 @@
 }
 
 .contactcard-body-head {
-    font-family: Lato;
-    font-weight: 700;
+    font-family: 'Lato';
+    font-weight: bold;
     font-size: 2rem;
     line-height: 105.5%;
     letter-spacing: 0.1em;
