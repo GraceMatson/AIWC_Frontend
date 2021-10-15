@@ -57,6 +57,11 @@
     overflow-wrap: break-word;
 }
 
+.knowmore {
+    text-decoration-line: underline;
+    color: #F16B58;
+}
+
 .heading {
     font-family: 'Bebas Neue';
     font-style: normal;
@@ -123,6 +128,13 @@
     /* White */
     color: #FFFFFF;
     margin-bottom: 5rem;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+    color: inherit;
 }
 
 @media screen and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
